@@ -1,3 +1,9 @@
+
 export default function Home() {
-  return <h1>Welcome to InboxZero SaaS</h1>;
+  return (
+    <main style={{ padding: "2rem", fontFamily: "sans-serif" }}>
+      <h1>Welcome to InboxZero</h1>
+      <p>You are no longer on the waitlist. 🎉</p>
+    </main>
+  );
 }
